@@ -94,7 +94,11 @@ main .container h1 {
     margin: 5px 0px 5px 0px;
 }
 
-.contact-main .container .contact-form button {
+.contact-main .container .contact-form a{
+    width: 100%;
+}
+
+.contact-main .container .contact-form a button {
     height: 50px;
     width: 100%;
     margin-top: 20px;
