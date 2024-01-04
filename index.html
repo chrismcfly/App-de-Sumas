@@ -4,21 +4,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Pagina de prueba</title>
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+    <title>Mi Promedio Ya!</title>
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 
 <body>
     <header class="header-main" id="header">
         <div class="container">
-            <img src="./img/logo.png" alt="MiLogo">
+            <a href="#" class="logo"><img src="img/logo.png" alt=""><strong>MiPromedioYa!</strong></a>
             <nav>   
                 <ul>
                     <li><a href="#">Inicio</a></li>
-                    <li><a href="#">Quienes Somos</a></li>
-                    <li><a href="#">Nuestra Mision</a></li>
-                    <li><a href="#">Actividades</a></li>
-                    <li><a href="#">Contacto</a></li>
                 </ul>
             </nav>
         </div>
@@ -26,12 +23,11 @@
     <main class="hero-main">
         <div class="container">
             <h1>Aplicación Calculadora de Notas</h1>
-            <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, eligendi.</h3>
+            <h3>Aplicación sencilla con HTML, CSS y JavaScript</h3>
         </div>
     </main>
     <section class="contact-main">
         <div class="container">
-
             <div class="contact-form">
                 <h2>¡Contáctanos!</h2>
                 <label for="nombre">Ingresa tu nombre</label>
@@ -44,6 +40,15 @@
                 <input type="number" name="nota2" id="nota2">
                 <a href="#"><button id="boton-Contactanos">Enviar</button></a>
             </div>
+            <table border id="tabla-resultados" class="table-results">
+                <tr>
+                    <th>Nombre</th>
+                    <th>Apellido</th>
+                    <th>Nota 01</th>
+                    <th>Nota 02</th>
+                    <th>Promedio</th>
+                </tr>
+            </table>
         </div>
     </section>
     <footer class="footer-main">
@@ -51,15 +56,6 @@
             <p>Desarrollado por Christian Ramos Bárcena</p>
         </div>
     </footer>
-    <table border id="tabla-resultados">
-        <tr>
-            <th>Nombre</th>
-            <th>Apellido</th>
-            <th>Nota 01</th>
-            <th>Nota 02</th>
-            <th>Promedio</th>
-        </tr>
-    </table>
 </body>
 <script src="./js/main.js"></script>
 </html>
